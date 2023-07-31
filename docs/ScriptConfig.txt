@@ -1,0 +1,5 @@
+ScriptConfig    groovy执行脚本配置
+    libPath    扩展库路径
+
+    scripts    脚本路径，json集合，可配置多个。
+

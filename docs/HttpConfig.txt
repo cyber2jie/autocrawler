@@ -1,0 +1,19 @@
+HttpConfig    工具http请求配置,使用json配置
+    in    请求url输入配置
+        type    输入方式配置,list方式，在参数中列出请求的url。fileLine方式,在文件中的每行是一个url。script方式需指定script参数或scriptPath参数，优先使用script，脚本需返回url集合。
+
+        params    list方式，配置urls参数，类型为数组。fileLine方式配置path参数，类型为字符串。
+
+
+    out    结果输出配置
+        type    可配置hole,stdout,file,script。file需指定参数path(path支持velocity替换参数，参数为配置的参数),script方式需指定script参数或scriptPath参数，优先使用script。
+
+        params    参数
+
+
+    headers    请求配置headers
+
+    threads    请求线程配置
+
+    page    url请求分组大小
+

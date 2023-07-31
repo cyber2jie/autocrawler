@@ -1,0 +1,13 @@
+CrawlerConfig    爬虫任务配置
+    baseUrl    站点URL
+
+    libPath    扩展库路径
+
+    thread    线程数
+
+    pageProcessorProcessScript    PageProcessor process执行脚本,脚本内置属性:AUTO_CRAWLER$page
+
+    pageProcessorSiteScript    PageProcessor site执行脚本,脚本内置属性:AUTO_CRAWLER$site
+
+    beforeStartScript    启动前执行脚本,用于添加pipeline等操作,脚本内置属性:AUTO_CRAWLER$spider
+

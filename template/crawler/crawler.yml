@@ -1,0 +1,6 @@
+baseUrl: https://www.github.com
+pageProcessorProcessScript: page.gv
+pageProcessorSiteScript: site.gv
+beforeStartScript: start.gv
+libPath: lib
+thread: 16

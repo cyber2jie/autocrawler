@@ -1,0 +1,7 @@
+{
+  libPath:"",
+  scripts:[
+  "script1.groovy",
+  "script2.groovy"
+  ]
+}
